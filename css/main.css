@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+
+}
+.stories{
+    max-width: 1440px;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-img h1{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+    color: white;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+.navbar-nav{
+    padding-left: 73%;
+    gap: 15px;
+    list-style-type: none;
+    display: flex;    
+}
+
+.stories{
+    padding-left: 35px; 
+    
+}
+
+.review{
+    width: 320px;
+    padding-top: 15px;
+    display: inline-block;
+
+}
+
+.col h2{
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.gallery {
+    padding-left: 60px;
+
+}
+.gallery img{
+    padding-left: 10px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+
+
+.footer{
+    width: 100%;
+    max-height: 400px;
+    background-color: rgb(48, 48, 48);
+    margin-top: 50px;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: #FFFFFF;
+    padding: 50px 180px 50px 50px;
+    line-height: 20px;
+}
+
+.map{
+    margin-left: 100px;
+}
